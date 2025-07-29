@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, Boss!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffe6f0, #fff);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      background: url('./assets/hero.png') no-repeat center/cover;
+      width: auto;
+      height: 50vh;
+      color: black;
+      padding: 100px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+    }
+
+    .floating-balloon {
+      position: absolute;
+      bottom: -150px;
+      width: 70px;
+      animation: floatUp 10s infinite;
+    }
+
+    .floating-balloon:nth-child(1) { left: 10%; animation-delay: 0s; }
+    .floating-balloon:nth-child(2) { left: 30%; animation-delay: 3s; }
+    .floating-balloon:nth-child(3) { left: 50%; animation-delay: 5s; }
+    .floating-balloon:nth-child(4) { left: 70%; animation-delay: 2s; }
+    .floating-balloon:nth-child(5) { left: 85%; animation-delay: 4s; }
+    .floating-balloon:nth-child(6) { left: 95%; animation-delay: 3s; }
+    .floating-balloon:nth-child(7) { left: 100%; animation-delay: 4s; }
+    .floating-balloon:nth-child(8) { left: 100%; animation-delay: 4s; }
+    .floating-balloon:nth-child(9) { left: 100%; animation-delay: 4s; }
+    .floating-balloon:nth-child(10) { left: 100%; animation-delay: 4s; }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-800px); opacity: 0; }
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .wishes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .wish-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 20px;
+      max-width: 250px;
+      transition: transform 0.3s ease;
+    }
+
+    .wish-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .wish-card img {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 30px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-happyrock.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Hero Section -->
+  <div class="hero">
+     <h1>🎉 Happy Birthday to <span id="typed-name" style="color: #ffd700;"></span>! 🎉</h1>
+      
+    <p>You're more than a leader — you're a true inspiration. Have an amazing year ahead!</p>
+
+    <!-- Floating Balloons -->
+    <img src=".https://thumbs.dreamstime.com/b/happy-birthday-greetings-lettering-design-balloons-transparent-background-eps-vector-party-114266961.jpg" class="floating-balloon" />
+    <img src="./assets/ballon1.jpg" class="floating-balloon" />
+    <img src="https://i.pinimg.com/474x/14/4f/24/144f247b5d859ed4ecc451691109ba59.jpg" class="floating-balloon" />
+    <img src="./assets/ballon1.jpg" class="floating-balloon" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR5-tEXGTRoifn4TRTqtjXKJUG30-Jad1h_M4qZKU8MeBIT7RYz0LIN4NLIWE46TkxSGU&usqp=CAU" class="floating-balloon" />
+    <img src="https://image.similarpng.com/file/similarpng/very-thumbnail/2021/07/Colorful-birthday-balloons-with-gold-ribbon-on-transparent-background-PNG.png" class="floating-balloon" />
+    <img src="./assets/ballon1.jpg" class="floating-balloon" />
+    <img src="./assets/ballon1.jpg" class="floating-balloon" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR5-tEXGTRoifn4TRTqtjXKJUG30-Jad1h_M4qZKU8MeBIT7RYz0LIN4NLIWE46TkxSGU&usqp=CAU" class="floating-balloon" />
+  </div>
+
+  <!-- About Boss -->
+  <div class="section" data-aos="fade-up" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 30px;">
+  <!-- Boss Image -->
+  <img src="./assets/about-img.jpg" alt="Our Boss" style="width: 250px; height: 250px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+
+  <!-- Boss Description -->
+  <div style="max-width: 600px; text-align: left;">
+    <h2 style="text-align: center;">About Our Boss</h2>
+    <p>
+      Our boss is not just a leader — he's a genuinely good person with a heart for growth, learning, and community. Always willing to teach what he knows, he believes in lifting others up and sharing knowledge freely. 
+      <br><br>
+      From helping the community gain internet access to supporting us like a true friend, he has consistently proven that leadership isn’t about power, but about impact, humility, and generosity.
+      <br><br>
+      A boss, a mentor, and a brother — we're grateful to celebrate you today. Thank you for being a light in our journey!
+    </p>
+  </div>
+</div>
+
+
+  <!-- Wishes Section -->
+  <div class="section" data-aos="fade-up" data-aos-delay="200">
+    <h2>Birthday Wishes</h2>
+    <div class="wishes">
+      <div class="wish-card" data-aos="zoom-in">
+        <img src="./assets/logo.jpg" alt="Jane">
+        <p><strong>Young Tech</strong></p>
+        <p>Wishing you endless joy and success!,Grateful for your guidance and kindness. Cheers to more greatness!</p>
+      </div>
+      <div class="wish-card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="data:image/jpeg;base64,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" alt="Mike">
+        <p><strong>Mrs Abiodun a.k.a <i>sekelicious</i> </strong></p>
+        <p>You're a blessing to everyone around you. Have an amazing year!</p>
+      </div>
+      <div class="wish-card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://birthdaysbest.com/wp-content/uploads/2018/02/254533bc0a5005cb4dbef1f1447a6a03-happy-birthday-cakes-th-birthday.jpg" alt="Sade">
+        <p><strong>Abdul Muiz and teams</strong></p>
+        <p>May your day be filled with laughter and cake!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer data-aos="fade-up">
+    🎂 With Love from the Entire Team 🎂
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+    AOS.init({ duration: 1000 });
+
+    document.addEventListener("DOMContentLoaded", function () {
+    new Typed("#typed-name", {
+      strings: ["our boss", "Benjamin Odesanmi", "Daddy Wisdom", "WiFiSpace Network Founder"],
+      typeSpeed: 70,
+      backSpeed: 40,
+      backDelay: 1500,
+      loop: true,
+      smartBackspace: true,
+      showCursor: true,
+      cursorChar: "|"
+    });
+  });
+  </script>
+
+</body>
+</html>
